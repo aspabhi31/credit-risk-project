@@ -12,3 +12,8 @@ Public credit default dataset containing demographic, behavioral, and credit his
 - Predict Probability of Default (PD)
 - Evaluate model performance using risk-appropriate metrics
 - Demonstrate how model outputs support approval decisions
+
+## Feature Understanding
+Features were categorized into behavioral (payment history, utilization, credit activity)
+and demographic (age, income, debt ratio). Behavioral features are expected to be more
+predictive of default risk, consistent with industry risk modeling practices.
