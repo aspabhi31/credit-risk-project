@@ -25,3 +25,9 @@ predictive of default risk, consistent with industry risk modeling practices.
 - Behavioral variables provide clearer risk separation than demographic variables.
 - Several features contain extreme or missing values, which will require careful treatment before modeling.
 
+## Feature Engineering Summary
+
+- Created missing income indicator to capture data quality risk.
+- Capped extreme utilization and debt ratio values to improve model stability.
+- Engineered TotalDelinquencyCount to summarize repayment behavior.
+- Added HighUtilizationFlag as a risk threshold indicator.
