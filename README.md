@@ -17,3 +17,11 @@ Public credit default dataset containing demographic, behavioral, and credit his
 Features were categorized into behavioral (payment history, utilization, credit activity)
 and demographic (age, income, debt ratio). Behavioral features are expected to be more
 predictive of default risk, consistent with industry risk modeling practices.
+
+## Risk Insights (EDA)
+
+- Default rates increase sharply with higher credit utilization, indicating strong monotonic risk behavior.
+- Customers with any history of 90+ day delinquency show significantly higher default rates.
+- Behavioral variables provide clearer risk separation than demographic variables.
+- Several features contain extreme or missing values, which will require careful treatment before modeling.
+
